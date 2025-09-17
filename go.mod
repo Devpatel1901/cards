@@ -1,3 +1,3 @@
-module github.com/Devpatel1901/deck_of_cards
+module github.com/Devpatel1901/cards
 
 go 1.24.3
