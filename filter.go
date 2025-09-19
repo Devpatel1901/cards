@@ -1,6 +1,6 @@
 package cards
 
-func filterOut(f func(Card) bool) func([]Card) []Card {
+func FilterOut(f func(Card) bool) func([]Card) []Card {
 	return func(cards []Card) []Card {
 		result := make([]Card, 0)
 		for _, c := range cards {
