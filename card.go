@@ -84,9 +84,7 @@ func NewDeck(opts ...func([]Card) []Card) []Card {
 func FromDecks(decks ...[]Card) []Card {
 	cards := make([]Card, 0)
 	for _, d := range decks {
-		for _, c := range d {
-			cards = append(cards, c)
-		}
+		cards = append(cards, d...)
 	}
 
 	return cards
