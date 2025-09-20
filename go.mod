@@ -1,4 +1,4 @@
-module github.com/Devpatel1901/cards
+module github.com/Devpatel1901/cards/v2
 
 go 1.24.3
 
